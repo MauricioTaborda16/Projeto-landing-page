@@ -1,0 +1,122 @@
+*{ margin: 0px;
+    
+    
+    font-family: "inter";
+   
+
+}
+    #logo{margin-left: 50px; margin-top: 50px;
+
+    }
+
+    #titulo-menus{margin-left: 150px;
+                  margin-top: 75px;
+
+    }
+    #tex-menus{
+        margin-left: 150px;
+        margin-top:25px ;
+        padding-bottom: 100px;
+        
+    }
+    #menusuperior{ background-image: url(imagens/fundo.svg);
+                   color:aliceblue;
+
+    }
+    #menuinformacional{
+        background-color: #eaece5;
+        display: grid;
+        grid-auto-flow: column;
+        columns: auto;
+    }
+    .icone{
+        
+        margin: 50px 0px 50px 100px;
+        padding: 25px;
+    }
+        .texinf{
+            display: flex;
+            align-items: center;
+        }
+            .secaovideo{
+                display: grid;
+                grid-auto-flow: column;
+                columns: auto;
+            }
+            #titulovideo{color:#247ba0;
+                margin-top: 100px;
+
+            }
+         #textovideo{
+
+         }
+         #video{margin: 50px 25px 50px 100px ;
+           
+         }
+         #carrossel{
+           
+            background-color: #247ba0;
+            
+            padding: 50px;
+         }
+         #titulo-carrossel{
+            color:white ;
+            text-align: center;
+            font-size:25px;
+         }
+         #div-cards{
+            display: grid;
+            grid-auto-flow: column;
+         }
+         .cards{
+            margin-left: 50px;
+           margin-top: 50px;
+         }
+         #sesquerda{
+            display: none;
+         }
+         #bruna{
+            display: none; 
+         }
+         .seta{
+            margin-top: 50%;
+            cursor: pointer;
+         }
+         .seta:hover{
+            transform: translate(3px);
+            transition-duration: 0.3s;
+         }
+         #formulario{
+            text-align: center;
+         }
+         #titulofor{
+            font-size: 25px;
+            margin: 25px;
+            color:#383838
+         }
+         input{
+            width: 300px;
+            height: 40px;
+            background-color:#EAECE5 ;
+            margin: 25px;
+            border: 0px;
+            border-radius: 5px;
+            padding-left: 10px;
+         }
+            button{
+               background-color:#247BA0;
+               width: 250px;
+               height: 40px;
+               border: 0px;
+               border-radius: 5px;
+               color:#eee8e8;
+               margin-bottom: 50px;
+               font-weight: bolder;
+            }
+            button:hover{
+               background-color: #2b96c4;
+               color: white;
+               transform: translateX(-7px);
+               box-shadow: 0px 15px 20px #0a4158;
+               transition-duration: 0.5s;
+            }
